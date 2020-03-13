@@ -79,9 +79,9 @@ color 0c
 echo +++++++++++++++++++++++++++++++++++++
 echo 手机未解锁，请先解锁手机
 echo 输入 ：1 解锁手机  2 退出
-set /p keyboard=
-if "%keyboard%" == "1" CALL "解锁.bat" & goto connect
-if "%keyboard%" == "2" goto exit
+set /p choose_lock=
+if "%choose_lock%" == "1" set choose_lock=nul & CALL "解锁.bat" & goto connect
+if "%choose_lock%" == "2" goto exit
 goto locked
 
 :begin
@@ -96,14 +96,14 @@ echo 4 开启高通AFlog
 echo . 重新检测手机状态
 echo 0 退出
 echo +++++++++++++++++++++++++++++++++++++
-set /p keyboard=
-if "%keyboard%" == "0" goto exit
-if "%keyboard%" == "1" CALL "启动相机.bat" & goto begin
-if "%keyboard%" == "2" CALL "获取机型信息.bat" & goto begin
-if "%keyboard%" == "3" CALL "刷机进入fastboot.bat" & goto begin
-if "%keyboard%" == "4" CALL "%~dp0\QCM\AF\push_camxoverridesettings.bat" & goto begin
-if "%keyboard%" == "." goto connect
-if "%keyboard%" == "。" goto connect
+set /p choose_function=
+if "%choose_function%" == "0" goto exit
+if "%choose_function%" == "1" set choose_function=nul & CALL "启动相机.bat" & goto begin
+if "%choose_function%" == "2" set choose_function=nul & CALL "获取机型信息.bat" & goto begin
+if "%choose_function%" == "3" set choose_function=nul & CALL "刷机进入fastboot.bat" & goto begin
+if "%choose_function%" == "4" set choose_function=nul & CALL "%~dp0\QCM\AF\push_camxoverridesettings.bat" & goto begin
+if "%choose_function%" == "." set choose_function=nul & goto connect
+if "%choose_function%" == "。" set choose_function=nul & goto connect
 goto begin
 
 :exit

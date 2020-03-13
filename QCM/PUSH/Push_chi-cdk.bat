@@ -5,19 +5,19 @@ REM PUSH CHI_CDK
 
 :begin
 echo 输入sensor的名称，push对应的参数bin文件：0--退出
-set /p sensor=
-if "%sensor%" == "846" goto after
-if "%sensor%" == "0" goto exit
-if "%sensor%" == "" goto begin
+set /p choose_sensor=
+if "%choose_sensor%" == "846" goto after
+if "%choose_sensor%" == "0" goto exit
+if "%choose_sensor%" == "" goto begin
 goto begin
 
 :after
 echo 选择push不同的bin文件 ：1--tuned 2--sensormodule 0--退出
-set /p choose=
-if "%choose%" == "1" goto push_tuned
-if "%choose%" == "2" goto push_sensormodule
-if "%choose%" == "0" goto exit
-if "%choose%" == "" goto after
+set /p choose_module=
+if "%choose_module%" == "1" goto push_tuned
+if "%choose_module%" == "2" goto push_sensormodule
+if "%choose_module%" == "0" goto exit
+if "%choose_module%" == "" goto after
 goto after
 
 :push_tuned
