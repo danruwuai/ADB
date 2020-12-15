@@ -23,4 +23,5 @@ echo +++++++++++++++++++++++++++++++++++++
 echo CPU–≈œ¢ £∫
 adb shell cat /proc/cpuinfo | findstr Hardware
 echo +++++++++++++++++++++++++++++++++++++
+adb shell svc usb setFunctions mtp
 pause

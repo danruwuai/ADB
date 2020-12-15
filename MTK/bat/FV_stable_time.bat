@@ -8,7 +8,7 @@ CALL "E:\workspace\ADB\启动相机.bat"
 
 echo +++++++++++++++++++++++++++++++++++++
 echo 等待5分钟
-timeout 300>nul
+timeout 300 >nul
 
 echo +++++++++++++++++++++++++++++++++++++
 echo 输入adb命令
@@ -17,7 +17,7 @@ adb shell setprop vendor.debug.af.frame 1
 adb shell sync
 adb shell sync
 adb shell pkill camera*
-timeout 3>nul
+timeout 3 >nul
 
 echo +++++++++++++++++++++++++++++++++++++
 echo 打开相机
