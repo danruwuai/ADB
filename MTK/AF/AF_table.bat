@@ -4,10 +4,12 @@ echo +++++++++++++++++++++++++++++++++++++
 adb wait-for-device root
 adb wait-for-device remount
 adb shell setenforce 0
-echo +++++++++++++++++++++++++++++++++++++
-echo L_bound INF
-adb shell setprop vendor.debug.af.zeccalib 1
-echo R_bound_bound Mac
-adb shell setprop vendor.debug.af.zeccalib 2
+CALL "E:\workspace\ADB\启动相机.bat"
 
-timeout 3 >nul
+echo +++++++++++++++++++++++++++++++++++++
+echo 等待5分钟
+timeout /T 300
+
+CALL "Fullscan.bat"
+
+timeout 3>nul

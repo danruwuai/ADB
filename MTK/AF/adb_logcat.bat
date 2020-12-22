@@ -2,4 +2,4 @@ adb wait-for-device root
 adb remount
 adb logcat -G 16m
 adb logcat -c
-adb logcat > E:\±Ê¼Ç\AF\bat\af_log.txt
+adb logcat > %~dp0\af_log.txt
