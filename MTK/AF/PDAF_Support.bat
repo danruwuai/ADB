@@ -11,7 +11,7 @@ adb shell pkill camera*
 timeout 5 >nul
 echo +++++++++++++++++++++++++++++++++++++
 echo ¶ÁÈ¡OTP
-START CMD /K CALL "Read_otp.bat"
+START CMD /K CALL "Read_Support_PDAF.bat"
 timeout 3 >nul
 adb shell am start -a android.media.action.STILL_IMAGE_CAMERA --ei android.intent.extras.Camera_FACING 0
 timeout 2 >nul

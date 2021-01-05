@@ -4,7 +4,9 @@ echo +++++++++++++++++++++++++++++++++++++
 adb wait-for-device root
 adb wait-for-device remount
 adb shell setenforce 0
-CALL "E:\workspace\ADB\启动相机.bat"
+cd %~dp0
+cd ../..
+CALL "启动相机.bat"
 
 echo +++++++++++++++++++++++++++++++++++++
 echo 等待5分钟
