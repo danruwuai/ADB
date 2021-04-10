@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="ff69b4" type="matches_text" case_sensitive="n" regex="n" text="[updateAEInfo2ISP()] SensorDev:1" />
+    <filter enabled="y" excluding="n" description="" backColor="dda0dd" type="matches_text" case_sensitive="n" regex="n" text="CWVY" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="ae_mgr" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="getRecommendCWTarget_v2p0" />
+    <filter enabled="y" excluding="n" description="" foreColor="6495ed" type="matches_text" case_sensitive="n" regex="n" text="[getPreviewParams()]" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="getDeltaIndex_v2p0" />
+    <filter enabled="y" excluding="n" description="" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="handleAE" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="getCaptureParams()]" />
+  </filters>
+</TextAnalysisTool.NET>

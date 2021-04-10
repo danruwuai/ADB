@@ -93,6 +93,7 @@ echo 1 启动Camera
 echo 2 查看机型信息
 echo 3 刷机，进入fastboot
 echo 4 开启高通AFlog
+echo 5 开启MTK AFlog
 echo . 重新检测手机状态
 echo 0 退出
 echo +++++++++++++++++++++++++++++++++++++
@@ -102,6 +103,7 @@ if "%keyboard%" == "1" CALL "启动相机.bat" & goto begin
 if "%keyboard%" == "2" CALL "获取机型信息.bat" & goto begin
 if "%keyboard%" == "3" CALL "刷机进入fastboot.bat" & goto begin
 if "%keyboard%" == "4" CALL "%~dp0\QCM\AF\push_camxoverridesettings.bat" & goto begin
+if "%keyboard%" == "5" CALL "%~dp0\MTK\AF\af.bat" & goto begin
 if "%keyboard%" == "." goto connect
 if "%keyboard%" == "。" goto connect
 goto begin

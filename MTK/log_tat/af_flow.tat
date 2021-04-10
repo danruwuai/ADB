@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="3APreview task" foreColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="Task3APv: [run]" />
+    <filter enabled="y" excluding="n" description="AFNormal task run" foreColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="TaskAFNormal: [run]" />
+    <filter enabled="y" excluding="n" description="AF mode is changed(4-&gt;1  auto)" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="MTK_CONTROL_AF_MODE" />
+    <filter enabled="y" excluding="n" description="TG domain domain ROI after converting by MV" backColor="4169e1" type="matches_text" case_sensitive="n" regex="n" text="MTK_CONTROL_AF_REGIONS mod" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="MTK_CONTROL_AF_REGIONS" />
+    <filter enabled="y" excluding="n" description="AF_TRIGGR-&gt;1(MTK_CONTROL_AF_TRIGGER_START)" backColor="4169e1" type="matches_text" case_sensitive="n" regex="n" text=" MTK_CONTROL_AF_TRIGGER" />
+    <filter enabled="y" excluding="n" description="Active array domain ROI from AP" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="[parseMeta] Return to AP AF" />
+    <filter enabled="y" excluding="n" description="IsSel set to 1,change TOI to 1(AP ROI)   type(1 ap ROI is selected)" backColor="dcdcdc" type="matches_text" case_sensitive="n" regex="n" text="SelROIToFocusing" />
+    <filter enabled="y" excluding="n" description="set AF area" backColor="7fffd4" type="matches_text" case_sensitive="n" regex="n" text="cmd-setAFArea" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="af_mgr_v3" />
+    <filter enabled="y" excluding="n" description="After getting MTK_CONTROL_AF_TRIGGER_START,call autofocus" backColor="87cefa" type="matches_text" case_sensitive="n" regex="n" text="autoFocus()" />
+    <filter enabled="y" excluding="n" description="sendEvent Touch AEStart" backColor="add8e6" type="matches_text" case_sensitive="n" regex="n" text="TouchAEStart" />
+    <filter enabled="y" excluding="n" description="" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="[sendEvent] TaskEvent:AfTriggerStart" />
+    <filter enabled="y" excluding="n" description="AFTrigger task starts to run" foreColor="800080" type="matches_text" case_sensitive="n" regex="n" text="TaskAFTrigger: [run]" />
+    <filter enabled="y" excluding="n" description="Convert AF algo lib: AF_ALGO_MODE_AFS" backColor="dda0dd" type="matches_text" case_sensitive="n" regex="n" text="setAFMode" />
+    <filter enabled="y" excluding="n" description="EVENT_CMD_AUTOFOCUS (flash is off,af mode=AUTO)  EVENT_CMD_TRIGGERAF_WITH_AE_STBL (Trigger AF when autofocus is called)" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="UpdateState" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="Start_AF_Search" />
+    <filter enabled="y" excluding="n" description="Move lens" backColor="f08080" type="matches_text" case_sensitive="n" regex="n" text="MoveLensTo" />
+    <filter enabled="y" excluding="n" description="" backColor="9400d3" type="matches_text" case_sensitive="n" regex="n" text="Task is timeout" />
+    <filter enabled="y" excluding="n" description="" backColor="008000" type="matches_text" case_sensitive="n" regex="n" text="lib_afmode" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="getAFState" />
+    <filter enabled="y" excluding="n" description="" foreColor="800080" type="matches_text" case_sensitive="n" regex="n" text="TaskAFTrigger" />
+    <filter enabled="y" excluding="n" description="帧" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="VSIrq" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="setAERegions" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="focusmode" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="/CAM_" />
+  </filters>
+</TextAnalysisTool.NET>

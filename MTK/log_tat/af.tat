@@ -1,35 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
   <filters>
-    <filter enabled="y" excluding="n" description="af algo开始  StatusC=当前状态" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="handleAFin" />
+    <filter enabled="y" excluding="n" description="af algo开始  StatusC=当前状态" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="handleAFin" />
     <filter enabled="n" excluding="n" description="af algo结束" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="handleafout" />
     <filter enabled="y" excluding="n" description="" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="SCD_R" />
     <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="SCD_D" />
-    <filter enabled="y" excluding="n" description="af信息" type="matches_text" case_sensitive="n" regex="n" text="[af_search][Param]" />
+    <filter enabled="y" excluding="n" description="af信息" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="[af_search][Param]" />
     <filter enabled="y" excluding="n" description="PDAF场景监测" foreColor="800000" type="matches_text" case_sensitive="n" regex="n" text="HBTrackS3" />
     <filter enabled="y" excluding="n" description="PDAF主要信息" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="HBTrackM1" />
     <filter enabled="y" excluding="n" description="PDAF事件信息" type="matches_text" case_sensitive="n" regex="n" text="HBTrackM2" />
     <filter enabled="y" excluding="n" description="移动和fine search信息" type="matches_text" case_sensitive="n" regex="n" text="HBTrackM3" />
     <filter enabled="y" excluding="n" description="移动过程收敛检查" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="HBTrackM4" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" backColor="dcdcdc" type="matches_text" case_sensitive="n" regex="n" text="FDAF][IN]" />
     <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="FDAF" />
-    <filter enabled="y" excluding="n" description="" backColor="ffa500" type="matches_text" case_sensitive="n" regex="y" text="takepic|onPictureTakenFinished" />
+    <filter enabled="y" excluding="n" description="" backColor="ff0000" type="matches_text" case_sensitive="n" regex="y" text="takepic|onPictureTakenFinished" />
     <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="SCD_D: GHIST" />
     <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="draw" />
     <filter enabled="y" excluding="n" description="状态" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="draw: state" />
     <filter enabled="y" excluding="n" description="" backColor="dcdcdc" type="matches_text" case_sensitive="n" regex="n" text="strobedrv" />
-    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="movelensto" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="y" text="movelensto|Speed] AFing0" />
     <filter enabled="n" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="y" text="SelROIToFocusing|setAFArea" />
     <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="[AdpComp]" />
     <filter enabled="y" excluding="n" description="" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="SCD_U" />
     <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="SCD_P" />
-    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="DYTH" />
-    <filter enabled="y" excluding="n" description="保存文件" backColor="ffa500" type="matches_text" case_sensitive="n" regex="y" text="save file|CAM_PreviewSaveRequest" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="DYTH" />
+    <filter enabled="y" excluding="n" description="保存文件" backColor="ff0000" type="matches_text" case_sensitive="n" regex="y" text="save file|CAM_PreviewSaveRequest|addImage: path" />
     <filter enabled="y" excluding="n" description="打开，关闭相机" backColor="dda0dd" type="matches_text" case_sensitive="n" regex="y" text="opencamera|closecamera" />
     <filter enabled="y" excluding="n" description="初始化数据" backColor="778899" type="matches_text" case_sensitive="n" regex="y" text="initaf|initmcu" />
     <filter enabled="y" excluding="n" description="camera上下电" backColor="dda0dd" type="matches_text" case_sensitive="n" regex="y" text="campwron|campwroff" />
     <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="SelROIToFocusing" />
     <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="Touch" />
-    <filter enabled="y" excluding="n" description="[P1::ENQ] 获取帧数对应的magic number， F后边表示frame number M后边表示magic number" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="setupAction" />
+    <filter enabled="y" excluding="n" description="[P1::ENQ] 获取帧数对应的magic number， F后边表示frame number M后边表示magic number" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="setupAction" />
     <filter enabled="y" excluding="n" description="确认发生时间的MagicNumber" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="[draw]" />
     <filter enabled="n" excluding="n" description="" foreColor="006400" type="matches_text" case_sensitive="n" regex="y" text="FDAF|faceAF" />
     <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="FaceStatChg" />
@@ -42,11 +43,17 @@
     <filter enabled="y" excluding="n" description="PD hunting" foreColor="008080" type="matches_text" case_sensitive="n" regex="n" text="move hunt" />
     <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="Mod:AF" />
     <filter enabled="y" excluding="n" description="点光源" type="matches_text" case_sensitive="n" regex="n" text="plF" />
-    <filter enabled="y" excluding="n" description="选择对焦框" foreColor="fa8072" type="matches_text" case_sensitive="n" regex="y" text="Dynamic M/S|HB\]\[DafIO|PDSEL|PDMUL" />
+    <filter enabled="n" excluding="n" description="选择对焦框" foreColor="fa8072" type="matches_text" case_sensitive="n" regex="y" text="Dynamic M/S|HB\]\[DafIO|PDSEL|PDMUL" />
     <filter enabled="n" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="dbgsmooth original" />
     <filter enabled="n" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="[get_ae_info] LCE" />
     <filter enabled="y" excluding="n" description="" foreColor="800000" type="matches_text" case_sensitive="n" regex="y" text="LaunchCamTrigger|setOTFDinfo" />
     <filter enabled="y" excluding="n" description="" backColor="dcdcdc" type="matches_text" case_sensitive="n" regex="n" text="getAlgoDebugInfo" />
     <filter enabled="n" excluding="n" description="" backColor="ffa07a" type="matches_text" case_sensitive="n" regex="n" text="cameratestActivity:" />
+    <filter enabled="n" excluding="n" description="fullscan过程" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="n" text="Fullscan" />
+    <filter enabled="y" excluding="n" description="设置AF mode" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="setAFMode" />
+    <filter enabled="y" excluding="n" description="获取对焦框" foreColor="00ff00" type="matches_text" case_sensitive="n" regex="n" text="getFocusArea" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="#! ---" />
+    <filter enabled="y" excluding="n" description="帧间隔" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="VSIrq" />
+    <filter enabled="n" excluding="n" description="对焦时间显示" type="matches_text" case_sensitive="n" regex="n" text="CAM_Camera2Module" />
   </filters>
 </TextAnalysisTool.NET>

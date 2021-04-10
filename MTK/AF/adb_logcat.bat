@@ -1,3 +1,4 @@
+title adb_logcat.bat
 adb wait-for-device root
 adb remount
 adb logcat -G 16m

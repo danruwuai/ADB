@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="800000" type="matches_text" case_sensitive="n" regex="n" text="getAESmoothIdx" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="getDeltaIndex_v2p0" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="getConvergeThd" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="isConverged_v2p0" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="isReachBoundary" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="getEVFinerGrad" />
+    <filter enabled="y" excluding="n" description="" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="EVRatio" />
+    <filter enabled="y" excluding="n" description="" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="handleAE" />
+    <filter enabled="y" excluding="n" description="帧间隔" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="[wait] VSIrq" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="Predict Ratio" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="getEvCompensateCWR" />
+    <filter enabled="y" excluding="n" description="" backColor="9400d3" type="matches_text" case_sensitive="n" regex="n" text="m_u4InitWaitCount" />
+  </filters>
+</TextAnalysisTool.NET>

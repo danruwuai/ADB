@@ -12,6 +12,6 @@ echo +++++++++++++++++++++++++++++++++++++
 echo µÈ´ý5·ÖÖÓ
 timeout /T 300
 
-CALL "Fullscan.bat"
+CALL "%~dp0\Fullscan.bat"
 
 timeout 3>nul

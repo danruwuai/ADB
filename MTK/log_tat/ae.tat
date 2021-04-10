@@ -7,14 +7,36 @@
     <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="get_ae_target" />
     <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="get_bv" />
     <filter enabled="y" excluding="n" description="" backColor="dda0dd" type="matches_text" case_sensitive="n" regex="n" text="initae" />
-    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="prepareCPUCalculateInfo" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="prepareCPUCalculateInfo" />
     <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="ae_algo_ctrl" />
-    <filter enabled="n" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="ae_mgr" />
+    <filter enabled="n" excluding="n" description="" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="y" text="ae_mgr|aealgo" />
     <filter enabled="y" excluding="n" description="" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="AI-shutter" />
     <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="duty" />
     <filter enabled="y" excluding="n" description="" backColor="dda0dd" type="matches_text" case_sensitive="n" regex="n" text="strobedrv" />
     <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="get_ae_info" />
     <filter enabled="y" excluding="n" description="" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="savepath" />
     <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="get_ae_target" />
+    <filter enabled="y" excluding="n" description="" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="MTK_CONTROL_AE_EXPOSURE_COMPENSATION" />
+    <filter enabled="y" excluding="n" description="" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="after update" />
+    <filter enabled="y" excluding="n" description="" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="pinocchio" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="getPreviewParams" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="getAESmoothIdx" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="ae_mgr" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="copyAEInfo2mgr" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="updatePreEvSettingQueue" />
+    <filter enabled="n" excluding="n" description="" backColor="ffa07a" type="matches_text" case_sensitive="n" regex="n" text="processAE" />
+    <filter enabled="y" excluding="n" description="" backColor="90ee90" type="matches_text" case_sensitive="n" regex="y" text="getRecommendCWTarget_v2p0|setAESatisticBufferAddrIp_v4p0" />
+    <filter enabled="n" excluding="n" description="" backColor="9400d3" type="matches_text" case_sensitive="n" regex="n" text="MagicNumber" />
+    <filter enabled="y" excluding="n" description="" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="takepicture" />
+    <filter enabled="y" excluding="n" description="查看锁定ae状态" backColor="ff0000" type="matches_text" case_sensitive="n" regex="y" text="setAPAELock|setAELock" />
+    <filter enabled="y" excluding="n" description="ev补偿" type="matches_text" case_sensitive="n" regex="n" text="setAEEVCompIndex" />
+    <filter enabled="y" excluding="n" description="是否稳定" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="m_i4FrameCnt" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="monitorAndReschedule" />
+    <filter enabled="y" excluding="n" description="是否稳定" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="isConverged:0" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="parserAEInput" />
+    <filter enabled="y" excluding="n" description="获取独赢index" type="matches_text" case_sensitive="n" regex="n" text="getDeltaIndex_v2p0" />
+    <filter enabled="y" excluding="n" description="帧间隔" backColor="9400d3" type="matches_text" case_sensitive="n" regex="n" text="[wait] VSIrq" />
+    <filter enabled="y" excluding="n" description="FACE AE" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="checkFaceAE" />
+    <filter enabled="y" excluding="n" description="face prob" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="getFaceProb" />
   </filters>
 </TextAnalysisTool.NET>

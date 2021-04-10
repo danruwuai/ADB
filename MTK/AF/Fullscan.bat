@@ -4,7 +4,10 @@ echo +++++++++++++++++++++++++++++++++++++
 adb wait-for-device root
 adb wait-for-device remount
 adb shell setenforce 0
-
+echo 输入AF_log开关
+CALL "%~dp0\af.bat"
+timeout 4
+echo +++++++++++++++++++++++++++++++++++++
 echo 关闭相机
 adb shell pkill camera*
 timeout 5 >nul
