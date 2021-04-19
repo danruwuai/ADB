@@ -38,5 +38,6 @@
     <filter enabled="y" excluding="n" description="帧间隔" backColor="9400d3" type="matches_text" case_sensitive="n" regex="n" text="[wait] VSIrq" />
     <filter enabled="y" excluding="n" description="FACE AE" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="checkFaceAE" />
     <filter enabled="y" excluding="n" description="face prob" foreColor="00008b" type="matches_text" case_sensitive="n" regex="n" text="getFaceProb" />
+    <filter enabled="y" excluding="n" description="Face状态（是否由于face变化锁ae）" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="Face Case" />
   </filters>
 </TextAnalysisTool.NET>

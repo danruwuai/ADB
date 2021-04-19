@@ -1,26 +1,12 @@
-	Line 630354: 03-22 14:53:49.092946 16416 19727 D AfAlgo  : [DYTH]Not enough sample return ~!! 
-	Line 630356: 03-22 14:53:49.092966 16416 19727 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 0:[Pos] 309 [H]3601030 [H1]3601030 [H3]57198 [L] 0 [M] 0 [R] 0 [mThr]432123(12) [sThr]288082(8) [LV]35 [PL] 0
-	Line 630843: 03-22 14:53:49.110094 16416 19727 D AfAlgo  : [DYTH]MaxIdx:1 CurrIdx:1 peak_num:1 RatioP:0 Ratio1:0 Ratio2:0 Mian_ratio:12 Sub_ratio:8
-	Line 630844: 03-22 14:53:49.110114 16416 19727 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 1:[Pos] 322 [H]3647939 [H1]3647939 [H3]61991 [L] 0 [M] 1 [R] 1 [mThr]437752(12) [sThr]291835(8) [LV]35 [PL] 0
-	Line 631432: 03-22 14:53:49.126041 16416 19727 D AfAlgo  : [DYTH]MaxIdx:2 CurrIdx:2 peak_num:1 RatioP:0 Ratio1:0 Ratio2:0 Mian_ratio:12 Sub_ratio:8
-	Line 631434: 03-22 14:53:49.126064 16416 19727 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 2:[Pos] 335 [H]3718283 [H1]3718283 [H3]64319 [L] 0 [M] 2 [R] 2 [mThr]446193(12) [sThr]297462(8) [LV]35 [PL] 0
-	Line 631953: 03-22 14:53:49.143269 16416 19727 D AfAlgo  : [DYTH]MaxIdx:3 CurrIdx:3 peak_num:1 RatioP:0 Ratio1:0 Ratio2:0 Mian_ratio:12 Sub_ratio:8
-	Line 631954: 03-22 14:53:49.143289 16416 19727 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 3:[Pos] 348 [H]3754324 [H1]3754324 [H3]68848 [L] 0 [M] 3 [R] 3 [mThr]450518(12) [sThr]300345(8) [LV]35 [PL] 0
-	Line 632555: 03-22 14:53:49.159094 16416 19727 D AfAlgo  : [DYTH]MaxIdx:4 CurrIdx:4 peak_num:1 RatioP:0 Ratio1:0 Ratio2:0 Mian_ratio:12 Sub_ratio:8
-	Line 632556: 03-22 14:53:49.159109 16416 19727 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 4:[Pos] 360 [H]3841040 [H1]3841040 [H3]69432 [L] 0 [M] 4 [R] 4 [mThr]460924(12) [sThr]307283(8) [LV]35 [PL] 0
-	Line 633202: 03-22 14:53:49.176199 16416 19727 D AfAlgo  : [DYTH]MaxIdx:5 CurrIdx:5 peak_num:1 RatioP:0 Ratio1:3 Ratio2:0 Mian_ratio:15 Sub_ratio:8
-	Line 633204: 03-22 14:53:49.176218 16416 19727 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 5:[Pos] 372 [H]3916791 [H1]3916791 [H3]76554 [L] 0 [M] 5 [R] 5 [mThr]587518(15) [sThr]313343(8) [LV]35 [PL] 0
-	Line 633760: 03-22 14:53:49.192507 16416 19727 D AfAlgo  : [DYTH]MaxIdx:6 CurrIdx:6 peak_num:1 RatioP:0 Ratio1:6 Ratio2:0 Mian_ratio:18 Sub_ratio:8
-	Line 633761: 03-22 14:53:49.192520 16416 19727 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 6:[Pos] 384 [H]3931135 [H1]3931135 [H3]78592 [L] 0 [M] 6 [R] 6 [mThr]707604(18) [sThr]314490(8) [LV]35 [PL] 0
-	Line 634332: 03-22 14:53:49.209902 16416 19727 D AfAlgo  : [DYTH]MaxIdx:6 CurrIdx:7 peak_num:1 RatioP:0 Ratio1:6 Ratio2:0 Mian_ratio:18 Sub_ratio:8
-	Line 634333: 03-22 14:53:49.209932 16416 19727 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 7:[Pos] 399 [H]3840950 [H1]3840950 [H3]77930 [L] 0 [M] 6 [R] 7 [mThr]707604(18) [sThr]314490(8) [LV]35 [PL] 0
-	Line 634880: 03-22 14:53:49.226126 16416 19727 D AfAlgo  : [DYTH]MaxIdx:6 CurrIdx:8 peak_num:1 RatioP:0 Ratio1:6 Ratio2:0 Mian_ratio:18 Sub_ratio:8
-	Line 634881: 03-22 14:53:49.226142 16416 19727 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 8:[Pos] 414 [H]3719202 [H1]3719202 [H3]74446 [L] 0 [M] 6 [R] 8 [mThr]707604(18) [sThr]314490(8) [LV]35 [PL] 0
-	Line 635483: 03-22 14:53:49.242982 16416 19727 D AfAlgo  : [DYTH]MaxIdx:6 CurrIdx:9 peak_num:1 RatioP:0 Ratio1:6 Ratio2:0 Mian_ratio:18 Sub_ratio:8
-	Line 635484: 03-22 14:53:49.243001 16416 19727 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 9:[Pos] 431 [H]3604695 [H1]3604695 [H3]67502 [L] 0 [M] 6 [R] 9 [mThr]707604(18) [sThr]314490(8) [LV]35 [PL] 0
-	Line 636031: 03-22 14:53:49.259459 16416 19727 D AfAlgo  : [DYTH]MaxIdx:6 CurrIdx:10 peak_num:1 RatioP:0 Ratio1:6 Ratio2:0 Mian_ratio:18 Sub_ratio:8
-	Line 636032: 03-22 14:53:49.259478 16416 19727 D AfAlgoC : [Speed][DYTH]AFing0[Idx]10:[Pos] 454 [H]3485764 [H1]3485764 [H3]64621 [L] 0 [M] 6 [R]10 [mThr]707604(18) [sThr]314490(8) [LV]35 [PL] 0
-	Line 636571: 03-22 14:53:49.275832 16416 19727 D AfAlgo  : [DYTH]MaxIdx:6 CurrIdx:11 peak_num:1 RatioP:0 Ratio1:6 Ratio2:3 Mian_ratio:18 Sub_ratio:11
-	Line 636573: 03-22 14:53:49.275846 16416 19727 D AfAlgoC : [Speed][DYTH]AFing0[Idx]11:[Pos] 476 [H]3396133 [H1]3396133 [H3]65180 [L] 0 [M] 6 [R]11 [mThr]707604(18) [sThr]432424(11) [LV]35 [PL] 0
-	Line 637208: 03-22 14:53:49.292741 16416 19727 D AfAlgo  : [DYTH]MaxIdx:6 CurrIdx:12 peak_num:1 RatioP:0 Ratio1:6 Ratio2:6 Mian_ratio:18 Sub_ratio:14
-	Line 637209: 03-22 14:53:49.292761 16416 19727 D AfAlgoC : [Speed][DYTH]AFing0[Idx]12:[Pos] 498 [H]69352 [H1]3082888 [H3]69352 [L] 0 [M] 6 [R]10 [mThr]14146(18) [sThr]11002(14) [LV]35 [PL] 2
+	行 13673: 04-12 16:49:00.965622 10748 12775 D AfAlgo  : [DYTH]Not enough sample return ~!! 
+	行 13685: 04-12 16:49:00.966264 10748 12775 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 0:[Pos] 376 [H]16924 [H1]31258 [H3]1152 [L] 0 [M] 0 [R] 0 [mThr]2030(12) [sThr]1353(8) [LV]38 [PL] 0
+	行 14830: 04-12 16:49:00.999808 10748 12775 D AfAlgo  : [DYTH]MaxIdx:0 CurrIdx:1 peak_num:1 RatioP:0 Ratio1:0 Ratio2:0 Mian_ratio:12 Sub_ratio:8
+	行 14837: 04-12 16:49:00.999901 10748 12775 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 1:[Pos] 364 [H]15292 [H1]27214 [H3]781 [L] 1 [M] 0 [R] 0 [mThr]2030(12) [sThr]1353(8) [LV]38 [PL] 0
+	行 15994: 04-12 16:49:01.033126 10748 12775 D AfAlgo  : [DYTH]MaxIdx:0 CurrIdx:2 peak_num:1 RatioP:0 Ratio1:0 Ratio2:0 Mian_ratio:12 Sub_ratio:8
+	行 16002: 04-12 16:49:01.033229 10748 12775 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 2:[Pos] 352 [H]19531 [H1]25841 [H3]630 [L] 2 [M] 2 [R] 1 [mThr]2343(12) [sThr]1562(8) [LV]38 [PL] 0
+	行 17146: 04-12 16:49:01.066547 10748 12775 D AfAlgo  : [DYTH]MaxIdx:0 CurrIdx:3 peak_num:1 RatioP:0 Ratio1:0 Ratio2:0 Mian_ratio:12 Sub_ratio:8
+	行 17166: 04-12 16:49:01.066756 10748 12775 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 3:[Pos] 339 [H]20298 [H1]22522 [H3]451 [L] 3 [M] 3 [R] 1 [mThr]2435(12) [sThr]1623(8) [LV]38 [PL] 0
+	行 18326: 04-12 16:49:01.099622 10748 12775 D AfAlgo  : [DYTH]MaxIdx:0 CurrIdx:4 peak_num:1 RatioP:0 Ratio1:0 Ratio2:0 Mian_ratio:12 Sub_ratio:8
+	行 18336: 04-12 16:49:01.099698 10748 12775 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 4:[Pos] 326 [H]21346 [H1]21067 [H3]450 [L] 4 [M] 4 [R] 1 [mThr]2561(12) [sThr]1707(8) [LV]38 [PL] 0
+	行 18879: 04-12 16:49:01.115640 10748 12775 D AfAlgo  : [DYTH]MaxIdx:0 CurrIdx:5 peak_num:1 RatioP:0 Ratio1:0 Ratio2:3 Mian_ratio:15 Sub_ratio:8
+	行 18898: 04-12 16:49:01.115752 10748 12775 D AfAlgoC : [Speed][DYTH]AFing0[Idx] 5:[Pos] 313 [H]20088 [H1]18520 [H3]372 [L] 5 [M] 4 [R] 1 [mThr]3201(15) [sThr]1707(8) [LV]38 [PL] 0
