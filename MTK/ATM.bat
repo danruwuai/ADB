@@ -5,7 +5,7 @@ adb wait-for-device
 set/p x=choose：1--Android Old 2--Android NEW 3--查询的模块： e--Exit：
 if "%x%"=="1" goto beginOld
 if "%x%"=="2" goto beginNew
-if "%x%"=="3" goto begin
+if "%x%"=="3" goto log
 if "%x%"=="e" goto Exit
 goto android
 
@@ -18,8 +18,11 @@ adb shell setprop debug.mapping_mgr.enable 3
 adb shell setprop debug.paramctrl.enable 1
 adb shell setprop debug.camera.dbginfo 1
 adb shell setprop debug.camera.dump.p2.debuginfo 1
+adb shell pkill camera*
 adb logcat -G 16m
 adb logcat -c
+timeout 5 >nul
+adb shell am start -a android.media.action.STILL_IMAGE_CAMERA --ei android.intent.extras.Camera_FACING 0
 goto begin
 
 :beginNew
@@ -31,13 +34,23 @@ adb shell setprop vendor.debug.mapping_mgr.enable 3
 adb shell setprop vendor.debug.paramctrl.enable 1
 adb shell setprop vendor.debug.camera.dbginfo 1
 adb shell setprop vendor.debug.camera.dump.p2.debuginfo 1
+adb shell setprop vendor.debug.aaa.perframe_prop.enable 1
+adb shell setprop vendor.profile.paramctrl.enable 1
+adb shell pkill camera*
 adb logcat -G 16m
 adb logcat -c
+timeout 5 >nul
+adb shell am start -a android.media.action.STILL_IMAGE_CAMERA --ei android.intent.extras.Camera_FACING 0
 goto begin
 
 :Exit
 echo 你选择的是Exit
 exit
+
+:log 
+adb logcat -G 16m
+adb logcat -c
+goto begin
 
 @echo off
 :begin

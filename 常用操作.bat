@@ -39,7 +39,7 @@ for /f "skip=1 tokens=1-2 delims=	" %%c in ( deviceinfo.txt ) do (
 )
 del /a/f/q %~dp0\deviceinfo.txt
 adb root
-adb remount | find "succeeded" 1>nul 2>nul  && ( echo remount success & goto begin )
+adb remount | find "succeeded" 1>nul 2>nul  && ( echo remount success & adb shell svc usb setFunctions mtp & goto begin )
 adb remount | find "Not running as root." 1>nul 2>nul  && ( echo root first & goto root )
 adb remount | find "remount failed" 1>nul 2>nul && ( echo remount fail & goto disable-verity )
 ping -n 2 127.0.0.1 >nul

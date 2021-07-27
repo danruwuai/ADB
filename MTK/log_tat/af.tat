@@ -55,5 +55,6 @@
     <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="#! ---" />
     <filter enabled="y" excluding="n" description="帧间隔" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="VSIrq" />
     <filter enabled="n" excluding="n" description="对焦时间显示" type="matches_text" case_sensitive="n" regex="n" text="CAM_Camera2Module" />
+    <filter enabled="y" excluding="n" description="状态更新" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="updatestate" />
   </filters>
 </TextAnalysisTool.NET>

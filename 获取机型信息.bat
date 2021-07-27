@@ -8,6 +8,9 @@ echo +++++++++++++++++++++++++++++++++++++
 echo 手机机型 :
 adb shell getprop ro.product.model
 echo +++++++++++++++++++++++++++++++++++++
+echo 手机版本 :
+adb shell getprop ro.build.tpye
+echo +++++++++++++++++++++++++++++++++++++
 echo Android版本 :
 adb shell getprop ro.build.version.release
 echo +++++++++++++++++++++++++++++++++++++
