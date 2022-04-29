@@ -1,2 +1,8 @@
 MTK/AF/af_log.txt
 MTK/AF/TestModule_VER_GUI
+MTK/ISP/db
+MTK/AF/af_kernel.txt
+MTK/PackwordToRaw/RAW_RESULT
+MTK/PackwordToRaw/*.packed_word
+MTK/ISP/isp7/SR_NDD/SR_NDD/camera
+MTK/ISP/isp7/SR_NDD/SR_NDD/camera_dump

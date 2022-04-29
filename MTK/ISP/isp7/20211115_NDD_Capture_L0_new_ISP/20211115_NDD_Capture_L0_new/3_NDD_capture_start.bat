@@ -1,0 +1,1 @@
+adb shell setprop vendor.debug.ndd.prv_ready 0

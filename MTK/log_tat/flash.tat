@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="False">
+  <filters>
+    <filter enabled="y" excluding="n" description="" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="brightness" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="update_real_bv" />
+    <filter enabled="y" excluding="n" description="" backColor="4169e1" type="matches_text" case_sensitive="n" regex="n" text="runCaptureSequence" />
+    <filter enabled="y" excluding="n" description="" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="EAECtrl_GetAELastMagicNum" />
+    <filter enabled="y" excluding="n" description="" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="AE Stable" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="is_converged_v7_0" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="FlashMgrM" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="Camera" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="light" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="bright" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="screen" />
+    <filter enabled="y" excluding="n" description="" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="savepath" />
+    <filter enabled="n" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="setFDInfo" />
+    <filter enabled="y" excluding="n" description="" foreColor="7fff00" backColor="778899" type="matches_text" case_sensitive="n" regex="n" text="NormalStable" />
+    <filter enabled="y" excluding="n" description="" backColor="87cefa" type="matches_text" case_sensitive="n" regex="n" text="gtm_out" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="get_fd_cwr_v7_0" />
+    <filter enabled="y" excluding="n" description="" backColor="f08080" type="matches_text" case_sensitive="n" regex="n" text="update_algo_ev_setting" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="face link cwr" />
+  </filters>
+</TextAnalysisTool.NET>

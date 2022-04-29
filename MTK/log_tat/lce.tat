@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="Final after genLTC" />
+    <filter enabled="y" excluding="n" description="" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="getLCELockInfo" />
+    <filter enabled="y" excluding="n" description="" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="y" text="After Modify Face|Before Modify Face" />
+    <filter enabled="y" excluding="n" description="" backColor="9400d3" type="matches_text" case_sensitive="n" regex="n" text="CapResult" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="lce_core" />
+    <filter enabled="y" excluding="n" description="" backColor="f08080" type="matches_text" case_sensitive="n" regex="n" text="enable isp tuning capture hint for HDR" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="smoothLCE" />
+    <filter enabled="y" excluding="n" description="" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="postCommand] MagicNum" />
+    <filter enabled="y" excluding="n" description="" backColor="ff0000" type="matches_text" case_sensitive="n" regex="y" text="saveToFile|savepath|MiDumpBuffer" />
+    <filter enabled="y" excluding="n" description="" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="applyAELock" />
+    <filter enabled="y" excluding="n" description="" backColor="4169e1" type="matches_text" case_sensitive="n" regex="y" text="setAPAELock|setAEEVComp" />
+    <filter enabled="y" excluding="n" description="" backColor="ffa07a" type="matches_text" case_sensitive="n" regex="n" text="topctrl_for" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="Mod:LCE" />
+    <filter enabled="y" excluding="n" description="拍照判断" backColor="87cefa" type="matches_text" case_sensitive="n" regex="n" text="collectParsedStrategyCaptureInfo" />
+  </filters>
+</TextAnalysisTool.NET>

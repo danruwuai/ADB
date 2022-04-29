@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="n" excluding="n" description="" backColor="4169e1" type="matches_text" case_sensitive="n" regex="n" text="setNVRAMIndex" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="awb_mgr" />
+    <filter enabled="n" excluding="n" description="" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="touchae" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="get_cwr" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="aelock" />
+    <filter enabled="y" excluding="n" description="" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="doPvAE" />
+    <filter enabled="n" excluding="n" description="" backColor="ffa07a" type="matches_text" case_sensitive="n" regex="n" text="AE_STAT]" />
+    <filter enabled="n" excluding="n" description="" backColor="4169e1" type="matches_text" case_sensitive="n" regex="n" text="m_bIsCPUAEStatInit" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="getCPUAEStat" />
+    <filter enabled="n" excluding="n" description="" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="AETable" />
+    <filter enabled="n" excluding="n" description="" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="MTK_SENSOR_SENSITIVITY" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="m_u4AEISOSpeed" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="get_cwr" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="real_Bv" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="get_hs_target] finalY" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="prob AET" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="ae_mgr" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="ae_algo" />
+  </filters>
+</TextAnalysisTool.NET>
