@@ -3,6 +3,8 @@
 echo +++++++++++++++++++++++++++++++++++++
 echo pull DB
 echo +++++++++++++++++++++++++++++++++++++
+rd /s /Q %cd%\db
+timeout 3
 adb wait-for-device root
 adb remount
 adb shell setenforce 0
