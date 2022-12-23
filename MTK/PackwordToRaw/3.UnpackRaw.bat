@@ -223,7 +223,7 @@ echo !str!%packed_word% !width! !height! !bitdepth! !Pixel_id!
 mkdir %cd%\RAW_RESULT
 move %raw_dir%*%raw% %cd%\RAW_RESULT\
 move %raw_dir%*%bmp% %cd%\RAW_RESULT\
-timeout 3
+::timeout 3
 move !str!*%packed_word% %cd%\RAW_RESULT\
 	set count=-1
 	set count1=0

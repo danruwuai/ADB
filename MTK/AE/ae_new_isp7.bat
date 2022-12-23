@@ -1,6 +1,8 @@
 adb wait-for-device
 adb root
 adb shell setenforce 0
+adb shell setprop log.tag D
+adb shell setprop persist.log.tag D
 rem adb shell setprop persist.vendor.mtk.camera.log_level 3
 rem adb shell setprop vendor.debug.camera.dbginfo 1
 adb shell setprop debug.cam.drawid 1
