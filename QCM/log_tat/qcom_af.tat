@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="STATS_AF" />
+    <filter enabled="y" excluding="n" description="第一次进相机" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="af_haf_is_first_run_process" />
+    <filter enabled="y" excluding="n" description="当前帧处理结束" backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="ProcessRequestDone" />
+    <filter enabled="y" excluding="n" description="HAF状态" backColor="dda0dd" type="matches_text" case_sensitive="n" regex="y" text="af_haf_event_restart|af_haf_util_change_state|af_haf_process state" />
+    <filter enabled="y" excluding="n" description="af当前pos，下一帧对应的pos" foreColor="800080" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="af_map_output_params" />
+    <filter enabled="y" excluding="n" description="对焦结果，对焦时间" backColor="ffff00" type="matches_text" case_sensitive="n" regex="y" text="af_haf_util_end_search|af_util_done" />
+    <filter enabled="y" excluding="n" description="CAF触发检测" foreColor="008000" type="matches_text" case_sensitive="n" regex="n" text="af_caf_process_monitor" />
+    <filter enabled="y" excluding="n" description="PDAF相关信息状态" type="matches_text" case_sensitive="n" regex="y" text="FinalizeBufferProperties|PublishFrameControl|af_pdaf_set_tuning is_2PD_enable|af_pdaf_process_monitor|af_pdaf_populate_process_monitor_output" />
+    <filter enabled="y" excluding="n" description="PDAF触发检测" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_monitor" />
+    <filter enabled="y" excluding="n" description="af信息   Gyro/SAD/AEC gain/是否是点光源" type="matches_text" case_sensitive="n" regex="n" text="af_caf_set_paramete" />
+    <filter enabled="y" excluding="n" description="af信息   Gyro/SAD/AEC gain/是否是点光源" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_set_parameter" />
+    <filter enabled="y" excluding="n" description="sad值 fv值" type="matches_text" case_sensitive="n" regex="y" text="af_generate_sad_stats SAD value|CAF_SCAN_parse_stats" />
+    <filter enabled="y" excluding="n" description="是否focus成功" foreColor="ff1493" backColor="d3d3d3" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_converge_done_temporal_process" />
+    <filter enabled="y" excluding="n" description="当前的sensor mode ；uc；feature" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="FillTuningModeData" />
+    <filter enabled="y" excluding="n" description="是否已经收敛完成" foreColor="ff1493" backColor="dcdcdc" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_is_focus_converge_done" />
+    <filter enabled="y" excluding="n" description="进入fine search" foreColor="dc143c" backColor="dcdcdc" type="matches_text" case_sensitive="n" regex="n" text="af_caf_search Entering HAF fine search!" />
+    <filter enabled="y" excluding="n" description="获取defocus信息" foreColor="d2691e" type="matches_text" case_sensitive="n" regex="y" text="af_pdaf_get_focus|af_pdaf_update_defocus_monitor" />
+    <filter enabled="y" excluding="n" description="pdaf下noise gain" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="y" text="af_pdaf_proc_noise|af_pdaf_get_noise_multiplier" />
+    <filter enabled="y" excluding="n" description="PDAF的对焦信息，fine search信息" foreColor="006400" backColor="d3d3d3" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_focus_converge_withFV" />
+    <filter enabled="y" excluding="n" description="当前conf，判断是否需要fine search" foreColor="006400" backColor="d3d3d3" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_get_fine_range" />
+    <filter enabled="y" excluding="n" description="前后两针defocus差" foreColor="d2691e" backColor="d3d3d3" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_proc_depth_stable" />
+    <filter enabled="n" excluding="n" description="AF当前对焦状态" foreColor="00008b" type="matches_text" case_sensitive="n" regex="y" text="UpdateControlAFState|HandleAFStateTransition" />
+    <filter enabled="n" excluding="n" description="pdaf的conf信息" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_proc_pd_single" />
+    <filter enabled="y" excluding="n" description="pdconf的信息和PhaseDifference的值" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="PublishPDLibOutput" />
+    <filter enabled="n" excluding="n" description="判断是否为景深对焦" foreColor="ff69b4" type="matches_text" case_sensitive="n" regex="n" text="PublishFrameInfo" />
+    <filter enabled="n" excluding="n" description="对焦模式" foreColor="808000" type="matches_text" case_sensitive="n" regex="y" text="ReadFocusMode|MapFocusModeToHALType" />
+    <filter enabled="n" excluding="n" description="尺寸信息" foreColor="b22222" type="matches_text" case_sensitive="n" regex="n" text="GetCropWindowInfo" />
+    <filter enabled="n" excluding="n" description="LensDistance的数据" foreColor="800080" type="matches_text" case_sensitive="n" regex="n" text="UpdateControlLensDistance" />
+    <filter enabled="n" excluding="n" description="对焦框大小" foreColor="4b0082" type="matches_text" case_sensitive="n" regex="y" text=" PublishHALMetadata|RetrieveBGStat" />
+    <filter enabled="n" excluding="n" description="pdaf设置的一些参数" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_set_tuning" />
+    <filter enabled="n" excluding="n" description="HAF的触发模式" foreColor="6495ed" type="matches_text" case_sensitive="n" regex="n" text="get_chromatix_vm_config HAF" />
+    <filter enabled="n" excluding="n" description="人脸框位置 对焦框大小" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="y" text="RetrieveFaceRegions|RetrieveFocusRegions|af_util_sw_stats_config_select_hpf newROI" />
+    <filter enabled="n" excluding="n" description="触发模式类型" foreColor="6495ed" type="matches_text" case_sensitive="n" regex="y" text="af_value_monitor_get_debug_status|af_value_monitor_create|af_process_frame|af_haf_monitor" />
+    <filter enabled="n" excluding="n" description="tuning信息（liowlight th）" type="matches_text" case_sensitive="n" regex="n" text="af_follower_prINT_tuning" />
+    <filter enabled="n" excluding="n" description="识别人脸" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="y" text="process_fd_roi|dbg_print_face_dim|af_core_map_roi_from_face|af_process_face_roi" />
+    <filter enabled="y" excluding="n" description="判断是否未low_light" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="y" text="af_util_is_low_light|af_pdaf_mw_is_low_light " />
+    <filter enabled="y" excluding="n" description="pdaf的conf的阈值" type="matches_text" case_sensitive="n" regex="y" text="af_pdaf_get_min_conf|af_pdaf_get_high_conf" />
+    <filter enabled="n" excluding="n" description="点光源初始化" type="matches_text" case_sensitive="n" regex="n" text="af_spd_detect_init" />
+    <filter enabled="y" excluding="n" description="pdaf稳定的最小帧数" type="matches_text" case_sensitive="n" regex="y" text="af_pdaf_get_min_stable_cnt|af_pdaf_proc_depth_stable" />
+    <filter enabled="y" excluding="n" description="PD判断的pos" foreColor="b22222" type="matches_text" case_sensitive="n" regex="y" text="af_pdaf_parse_monitor_input_parameter|af_pdaf_get_target_pos" />
+    <filter enabled="n" excluding="n" description="点光源数据" type="matches_text" case_sensitive="n" regex="n" text="af_spd_numb_BG_saturat_grid" />
+    <filter enabled="n" excluding="n" description="点光源检测" type="matches_text" case_sensitive="n" regex="n" text="af_spd_detect_process" />
+    <filter enabled="n" excluding="n" description="pdaf增加conf的th" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_mw_massage_pd_data" />
+    <filter enabled="n" excluding="n" description="当前状态的ae信息" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_dynamic_frame_skip_early_interrupt AEC_Info" />
+    <filter enabled="n" excluding="n" description="HAF分析触发结果" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="af_haf_analyze_monitor_data" />
+    <filter enabled="n" excluding="n" description="pdaf下的multiplier" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_get_dof_multiplier" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="y" text="af_pdaf_mw_proc_pd_windows|af_pdaf_mw_sort_windows" />
+    <filter enabled="n" excluding="n" description="对焦过程数据" foreColor="8b008b" type="matches_text" case_sensitive="n" regex="y" text="af_haf_util_update_cur_lens_pos_for_peer|af_util_update_peer_focus_info" />
+    <filter enabled="n" excluding="n" description="找到最大的人脸位置" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="find_biggest_face" />
+    <filter enabled="n" excluding="n" description="判断新的人脸是否最大" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="is_new_face_big_enough" />
+    <filter enabled="n" excluding="n" description="判断尺寸，位置是否稳定" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="y" text="check_size_stability|check_loc_stability|check_face_stability" />
+    <filter enabled="n" excluding="n" description="人脸丢失状态" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="process_counters_int" />
+    <filter enabled="n" excluding="n" description="开始fine serach" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="af_single_hj_start_srch_fine" />
+    <filter enabled="n" excluding="n" description="步进表" foreColor="5f9ea0" type="matches_text" case_sensitive="n" regex="n" text="af_single_hj_update_anchor_index" />
+    <filter enabled="n" excluding="n" description="caf状态" foreColor="d2691e" type="matches_text" case_sensitive="n" regex="n" text="af_single_hj_set_start_pos" />
+    <filter enabled="n" excluding="n" description="caf下的fv值" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="n" text="af_single_hj_get_value" />
+    <filter enabled="n" excluding="n" description="caf检测点光源" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="af_single_hj_flat_curve_detection_by_fratio" />
+    <filter enabled="n" excluding="n" description="对焦方向" foreColor="5f9ea0" type="matches_text" case_sensitive="n" regex="n" text="af_single_hj_is_scan_end_pre" />
+    <filter enabled="n" excluding="n" description="fine search是否需要，状态检测" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="af_single_hj_is_needed_fine_scan" />
+    <filter enabled="n" excluding="n" description="caf最终结果" foreColor="7fff00" type="matches_text" case_sensitive="n" regex="n" text="af_single_hj_return_result" />
+    <filter enabled="n" excluding="n" description="pdaf验证对焦标准" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_proc_pd_single grid" />
+    <filter enabled="n" excluding="n" description="验证pdaf触发" type="matches_text" case_sensitive="n" regex="n" text="af_pdaf_proc_pd_single roi" />
+    <filter enabled="n" excluding="n" description="主副摄信息" foreColor="4b0082" backColor="dcdcdc" type="matches_text" case_sensitive="n" regex="n" text="camid" />
+    <filter enabled="n" excluding="n" description="touch信息" foreColor="008080" type="matches_text" case_sensitive="n" regex="n" text="STATE_WAITING_TOUCH_FOCUS" />
+    <filter enabled="n" excluding="n" description="魅族相机信息" foreColor="0000ff" backColor="d3d3d3" type="matches_text" case_sensitive="n" regex="n" text="MzCam_CameraCtlV2" />
+    <filter enabled="n" excluding="n" description="骁龙相机信息" foreColor="0000ff" backColor="d3d3d3" type="matches_text" case_sensitive="n" regex="n" text="SnapCam_CaptureModule" />
+    <filter enabled="y" excluding="n" description="开始对焦" backColor="9400d3" type="matches_text" case_sensitive="n" regex="n" text="af_haf_monitor Result: refocus TRUE" />
+    <filter enabled="y" excluding="n" description="caf" foreColor="6495ed" type="matches_text" case_sensitive="n" regex="n" text="af_single_hj" />
+    <filter enabled="y" excluding="n" description="ae是否稳定" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="af_single_hj_start_srch" />
+    <filter enabled="y" excluding="n" description="af pos" foreColor="ff1493" type="matches_text" case_sensitive="n" regex="n" text="HAF dest_pos" />
+    <filter enabled="y" excluding="n" description="移动" foreColor="dc143c" type="matches_text" case_sensitive="n" regex="n" text="af_haf_util_move_lens_to_dest" />
+    <filter enabled="y" excluding="n" description="最终的pos" backColor="ff0000" type="matches_text" case_sensitive="n" regex="y" text="final position|af_haf_util_update_cur_lens_pos_for_peer INFO_FOR_PEER" />
+    <filter enabled="y" excluding="n" description="" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="af_caf_util_get_value Peak found at pos" />
+    <filter enabled="y" excluding="n" description="pd转CAF" backColor="ff0000" type="matches_text" case_sensitive="n" regex="y" text="AF_PDAF_CONVERGE_FALLBACK|fallback to contrast AF" />
+  </filters>
+</TextAnalysisTool.NET>

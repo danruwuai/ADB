@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+========================================================================
+   Copyright (c) 2019-2020 Qualcomm Technologies, Inc.
+   All Rights Reserved.
+   Confidential and Proprietary - Qualcomm Technologies, Inc.
+========================================================================
+-->
+<chromatixContrastAF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="..\..\..\..\..\..\..\api\chromatix\XSD\stats\af\afcontrastafelements.xsd">
+  <module_version major_revision="9" minor_revision="0" incr_revision="0"/>
+  <parameter_version>
+    <revision>"A"</revision>
+  </parameter_version>
+  <statisticsSelection range="[0,9]">AF_Stats_HV</statisticsSelection>
+  <face>
+    <ROIProcessEnable>1</ROIProcessEnable>
+    <ROIStable>
+      <statsROIDiffEnable>1</statsROIDiffEnable>
+      <TriggerCtrlType>TriggerCtrlGain</TriggerCtrlType>
+      <statsROIDiffThreshold>
+        <triggerPt>
+          <start type="float" range="[-100.0,15000.0]">0</start>
+          <end type="float" range="[-100.0,15000.0]">0</end>
+        </triggerPt>
+        <triggerData>
+          <triggerPt>
+            <start type="float" range="[-100.0,15000.0]">8</start>
+            <end type="float" range="[-100.0,15000.0]">8</end>
+          </triggerPt>
+          <triggerData>
+            <locationThreshold type="float" range="[0.0,100.0]">0.5</locationThreshold>
+            <sizeThreshold type="float" range="[0.0,100.0]">0.5</sizeThreshold>
+            <countThreshold type="int" range="[0,100]">3</countThreshold>
+          </triggerData>
+        </triggerData>
+        <triggerData>
+          <triggerPt>
+            <start type="float" range="[-100.0,15000.0]">4</start>
+            <end type="float" range="[-100.0,15000.0]">4</end>
+          </triggerPt>
+          <triggerData>
+            <locationThreshold type="float" range="[0.0,100.0]">0.5</locationThreshold>
+            <sizeThreshold type="float" range="[0.0,100.0]">0.5</sizeThreshold>
+            <countThreshold type="int" range="[0,100]">3</countThreshold>
+          </triggerData>
+        </triggerData>
+        <triggerData>
+          <triggerPt>
+            <start type="float" range="[-100.0,15000.0]">1</start>
+            <end type="float" range="[-100.0,15000.0]">1</end>
+          </triggerPt>
+          <triggerData>
+            <locationThreshold type="float" range="[0.0,100.0]">0.5</locationThreshold>
+            <sizeThreshold type="float" range="[0.0,100.0]">0.5</sizeThreshold>
+            <countThreshold type="int" range="[0,100]">3</countThreshold>
+          </triggerData>
+        </triggerData>
+      </statsROIDiffThreshold>
+    </ROIStable>
+    <ROIChange>
+      <statsROIDiffEnable>1</statsROIDiffEnable>
+      <TriggerCtrlType>TriggerCtrlGain</TriggerCtrlType>
+      <statsROIDiffThreshold>
+        <triggerPt>
+          <start type="float" range="[-100.0,15000.0]">0</start>
+          <end type="float" range="[-100.0,15000.0]">0</end>
+        </triggerPt>
+        <triggerData>
+          <triggerPt>
+            <start type="float" range="[-100.0,15000.0]">8</start>
+            <end type="float" range="[-100.0,15000.0]">8</end>
+          </triggerPt>
+          <triggerData>
+            <locationThreshold type="float" range="[0.0,100.0]">5</locationThreshold>
+            <sizeThreshold type="float" range="[0.0,100.0]">5</sizeThreshold>
+            <countThreshold type="int" range="[0,100]">3</countThreshold>
+          </triggerData>
+        </triggerData>
+        <triggerData>
+          <triggerPt>
+            <start type="float" range="[-100.0,15000.0]">4</start>
+            <end type="float" range="[-100.0,15000.0]">4</end>
+          </triggerPt>
+          <triggerData>
+            <locationThreshold type="float" range="[0.0,100.0]">5</locationThreshold>
+            <sizeThreshold type="float" range="[0.0,100.0]">5</sizeThreshold>
+            <countThreshold type="int" range="[0,100]">3</countThreshold>
+          </triggerData>
+        </triggerData>
+        <triggerData>
+          <triggerPt>
+            <start type="float" range="[-100.0,15000.0]">1</start>
+            <end type="float" range="[-100.0,15000.0]">1</end>
+          </triggerPt>
+          <triggerData>
+            <locationThreshold type="float" range="[0.0,100.0]">5</locationThreshold>
+            <sizeThreshold type="float" range="[0.0,100.0]">5</sizeThreshold>
+            <countThreshold type="int" range="[0,100]">3</countThreshold>
+          </triggerData>
+        </triggerData>
+      </statsROIDiffThreshold>
+    </ROIChange>
+  </face>
+  <track>
+    <TrackROIStable>
+      <statsROIDiffEnable>1</statsROIDiffEnable>
+      <TriggerCtrlType>TriggerCtrlGain</TriggerCtrlType>
+      <statsROIDiffThreshold>
+        <triggerPt>
+          <start type="float" range="[-100.0,15000.0]">0</start>
+          <end type="float" range="[-100.0,15000.0]">0</end>
+        </triggerPt>
+        <triggerData>
+          <triggerPt>
+            <start type="float" range="[-100.0,15000.0]">8</start>
+            <end type="float" range="[-100.0,15000.0]">8</end>
+          </triggerPt>
+          <triggerData>
+            <locationThreshold type="float" range="[0.0,100.0]">0.5</locationThreshold>
+            <sizeThreshold type="float" range="[0.0,100.0]">0.5</sizeThreshold>
+            <countThreshold type="int" range="[0,100]">3</countThreshold>
+          </triggerData>
+        </triggerData>
+        <triggerData>
+          <triggerPt>
+            <start type="float" range="[-100.0,15000.0]">4</start>
+            <end type="float" range="[-100.0,15000.0]">4</end>
+          </triggerPt>
+          <triggerData>
+            <locationThreshold type="float" range="[0.0,100.0]">0.5</locationThreshold>
+            <sizeThreshold type="float" range="[0.0,100.0]">0.5</sizeThreshold>
+            <countThreshold type="int" range="[0,100]">3</countThreshold>
+          </triggerData>
+        </triggerData>
+        <triggerData>
+          <triggerPt>
+            <start type="float" range="[-100.0,15000.0]">1</start>
+            <end type="float" range="[-100.0,15000.0]">1</end>
+          </triggerPt>
+          <triggerData>
+            <locationThreshold type="float" range="[0.0,100.0]">0.5</locationThreshold>
+            <sizeThreshold type="float" range="[0.0,100.0]">0.5</sizeThreshold>
+            <countThreshold type="int" range="[0,100]">3</countThreshold>
+          </triggerData>
+        </triggerData>
+      </statsROIDiffThreshold>
+    </TrackROIStable>
+    <TrackROIChange>
+      <statsROIDiffEnable>1</statsROIDiffEnable>
+      <TriggerCtrlType>TriggerCtrlGain</TriggerCtrlType>
+      <statsROIDiffThreshold>
+        <triggerPt>
+          <start type="float" range="[-100.0,15000.0]">0</start>
+          <end type="float" range="[-100.0,15000.0]">0</end>
+        </triggerPt>
+        <triggerData>
+          <triggerPt>
+            <start type="float" range="[-100.0,15000.0]">8</start>
+            <end type="float" range="[-100.0,15000.0]">8</end>
+          </triggerPt>
+          <triggerData>
+            <locationThreshold type="float" range="[0.0,100.0]">5</locationThreshold>
+            <sizeThreshold type="float" range="[0.0,100.0]">5</sizeThreshold>
+            <countThreshold type="int" range="[0,100]">3</countThreshold>
+          </triggerData>
+        </triggerData>
+        <triggerData>
+          <triggerPt>
+            <start type="float" range="[-100.0,15000.0]">4</start>
+            <end type="float" range="[-100.0,15000.0]">4</end>
+          </triggerPt>
+          <triggerData>
+            <locationThreshold type="float" range="[0.0,100.0]">5</locationThreshold>
+            <sizeThreshold type="float" range="[0.0,100.0]">5</sizeThreshold>
+            <countThreshold type="int" range="[0,100]">3</countThreshold>
+          </triggerData>
+        </triggerData>
+        <triggerData>
+          <triggerPt>
+            <start type="float" range="[-100.0,15000.0]">1</start>
+            <end type="float" range="[-100.0,15000.0]">1</end>
+          </triggerPt>
+          <triggerData>
+            <locationThreshold type="float" range="[0.0,100.0]">5</locationThreshold>
+            <sizeThreshold type="float" range="[0.0,100.0]">5</sizeThreshold>
+            <countThreshold type="int" range="[0,100]">3</countThreshold>
+          </triggerData>
+        </triggerData>
+      </statsROIDiffThreshold>
+    </TrackROIChange>
+  </track>
+  <fullSweep>
+    <numStepsBetweenStatPoints type="int" range="[0,unbounded]">2</numStepsBetweenStatPoints>
+    <frameDelayInf type="int" range="[0,10]">3</frameDelayInf>
+    <frameDelayNorm type="int" range="[0,10]">3</frameDelayNorm>
+    <frameDelayFinal type="int" range="[0,10]">3</frameDelayFinal>
+    <previewAssistedAFEnable type="int">0</previewAssistedAFEnable>
+  </fullSweep>
+  <singleSearch>
+    <index type="uint" range="[0,unbounded]">0</index>
+    <index type="uint" range="[0,unbounded]">27</index>
+    <index type="uint" range="[0,unbounded]">124</index>
+    <index type="uint" range="[0,unbounded]">231</index>
+    <index type="uint" range="[0,unbounded]">310</index>
+    <index type="uint" range="[0,unbounded]">370</index>
+    <index type="uint" range="[0,unbounded]">400</index>
+    <index type="uint" range="[0,unbounded]">418</index>
+    <index type="uint" range="[0,unbounded]">430</index>
+    <index type="uint" range="[0,unbounded]">459</index>
+    <index type="uint" range="[0,unbounded]">484</index>
+    <index type="uint" range="[0,unbounded]">507</index>
+    <actuatorType type="uint" range="[0,1]">1</actuatorType>
+    <isHysteresisCompensationNeeded type="uint" range="[0,1]">0</isHysteresisCompensationNeeded>
+    <stepIndexPerMicroMeter type="uint" range="[1,65535]">1</stepIndexPerMicroMeter>
+    <previewAssistedAFEnable type="int">0</previewAssistedAFEnable>
+    <TAFStepTable type="chromatixStepSizeTable">
+      <prescanNormalLight type="chromatixStepSize">
+        <region0 type="uint" range="[0,unbounded]">40</region0>
+        <region1 type="uint" range="[0,unbounded]">40</region1>
+        <region2 type="uint" range="[0,unbounded]">45</region2>
+        <region3 type="uint" range="[0,unbounded]">45</region3>
+        <region4 type="uint" range="[0,unbounded]">48</region4>
+      </prescanNormalLight>
+      <prescanLowLight type="chromatixStepSize">
+        <region0 type="uint" range="[0,unbounded]">50</region0>
+        <region1 type="uint" range="[0,unbounded]">50</region1>
+        <region2 type="uint" range="[0,unbounded]">55</region2>
+        <region3 type="uint" range="[0,unbounded]">55</region3>
+        <region4 type="uint" range="[0,unbounded]">60</region4>
+      </prescanLowLight>
+      <finescanNormalLight type="chromatixStepSize">
+        <region0 type="uint" range="[0,unbounded]">10</region0>
+        <region1 type="uint" range="[0,unbounded]">10</region1>
+        <region2 type="uint" range="[0,unbounded]">12</region2>
+        <region3 type="uint" range="[0,unbounded]">13</region3>
+        <region4 type="uint" range="[0,unbounded]">15</region4>
+      </finescanNormalLight>
+      <finescanLowLight type="chromatixStepSize">
+        <region0 type="uint" range="[0,unbounded]">12</region0>
+        <region1 type="uint" range="[0,unbounded]">12</region1>
+        <region2 type="uint" range="[0,unbounded]">14</region2>
+        <region3 type="uint" range="[0,unbounded]">14</region3>
+        <region4 type="uint" range="[0,unbounded]">16</region4>
+      </finescanLowLight>
+    </TAFStepTable>
+    <CAFStepTable type="chromatixStepSizeTable">
+      <prescanNormalLight type="chromatixStepSize">
+        <region0 type="uint" range="[0,unbounded]">22</region0>
+        <region1 type="uint" range="[0,unbounded]">22</region1>
+        <region2 type="uint" range="[0,unbounded]">16</region2>
+        <region3 type="uint" range="[0,unbounded]">12</region3>
+        <region4 type="uint" range="[0,unbounded]">8</region4>
+      </prescanNormalLight>
+      <prescanLowLight type="chromatixStepSize">
+        <region0 type="uint" range="[0,unbounded]">22</region0>
+        <region1 type="uint" range="[0,unbounded]">22</region1>
+        <region2 type="uint" range="[0,unbounded]">16</region2>
+        <region3 type="uint" range="[0,unbounded]">12</region3>
+        <region4 type="uint" range="[0,unbounded]">8</region4>
+      </prescanLowLight>
+      <finescanNormalLight type="chromatixStepSize">
+        <region0 type="uint" range="[0,unbounded]">5</region0>
+        <region1 type="uint" range="[0,unbounded]">5</region1>
+        <region2 type="uint" range="[0,unbounded]">4</region2>
+        <region3 type="uint" range="[0,unbounded]">3</region3>
+        <region4 type="uint" range="[0,unbounded]">3</region4>
+      </finescanNormalLight>
+      <finescanLowLight type="chromatixStepSize">
+        <region0 type="uint" range="[0,unbounded]">5</region0>
+        <region1 type="uint" range="[0,unbounded]">5</region1>
+        <region2 type="uint" range="[0,unbounded]">4</region2>
+        <region3 type="uint" range="[0,unbounded]">3</region3>
+        <region4 type="uint" range="[0,unbounded]">3</region4>
+      </finescanLowLight>
+    </CAFStepTable>
+    <software type="chromatixSingleThreshold">
+      <changeRatioInc type="float" range="[1.0,1.1]">1.005</changeRatioInc>
+      <changeRatioDec type="float" range="[0.5,1.0]">0.995</changeRatioDec>
+      <flatIncThres type="float" range="[1.0,1.1]">1.008</flatIncThres>在inc_dec的无flat时，前两帧为上升状态时时使用该参数判断是否存在peak，两次上升都需要比该阈值大。包含flat状态时，上升时需要和flatIncThres比较，下降时和flatDecThres比较
+      <flatDecThres type="float" range="[0.5,1.0]">0.992</flatDecThres>在inc_dec的无flat时，后两区间为下降状态时使用该参数判断是否存在peak，两次下降都需要比该阈值小。该两个参数是找到判断为peak状态的第一个条件
+      <fvIncFlatThres type="float" range="[1.0,1.1]">1.02</fvIncFlatThres>af_single_hj_fv_update_sample函数中，相邻2帧比较的判定阈值,当前帧大于pre帧使用该inc参数
+      <fvDecFlatThres type="float" range="[0.5,1.0]">0.98</fvDecFlatThres>区间默认处于是HJ_FOCAL_STATUS_INVALID，判定后HJ_FOCAL_STATUS_INCREASE，HJ_FOCAL_STATUS_FLAT，HJ_FOCAL_STATUS_DECREASE
+      <fvIncFlatThresSpotlight type="float" range="[1.0,1.1]">1.01</fvIncFlatThresSpotlight>同上两项，检测到点光源后代替其发挥作用
+      <fvDecFlatThresSpotlight type="float" range="[0.5,1.0]">0.99</fvDecFlatThresSpotlight>
+      <macroThres type="float" range="[0.5,1.0]">0.99</macroThres>
+      <dropThres type="float" range="[0.5,1.0]">0.75</dropThres>
+      <histogramDecreaseDecreaseThreshold type="uint" range="[0,unbounded]">800</histogramDecreaseDecreaseThreshold>
+      <histogramIncreaseDecreaseThreshold type="uint" range="[0,unbounded]">800</histogramIncreaseDecreaseThreshold>
+      <threeFrameDecreaseDecreasePeakThreshold type="chromatixBVThreshold">默认值都为0.97
+        <Threshold type="float" range="[0.5,1]">0.97</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.97</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.97</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.8</Threshold>
+      </threeFrameDecreaseDecreasePeakThreshold>
+      <threeFrameIncreaseDecreasePeakThreshold type="chromatixBVThreshold">
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.93</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.925</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.925</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.92</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.92</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.92</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.9</Threshold>
+      </threeFrameIncreaseDecreasePeakThreshold>
+      <decreaseDecreasePeakThreshold type="chromatixBVThreshold">无noise时使用该参数，同下面参数作用。在4帧为PRESCAN_DECREASE状态下找peak,不符合increaseDecreasePeakThreshold情况下的错失peak。
+        <Threshold type="float" range="[0.5,1]">0.97</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.97</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.97</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.96</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.96</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.75</Threshold>
+      </decreaseDecreasePeakThreshold>
+      <decreaseDecreasePeakWithNoiseThreshold type="chromatixBVThreshold">af_single_hj.cpp3939用于noise有计数，且<=2时,与FV_RATIO进行对比，判断decrease状态下的peak,小于该值时，为true.
+        <Threshold type="float" range="[0.5,1]">0.86</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.86</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.86</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.86</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.85</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.84</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.84</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.75</Threshold>
+      </decreaseDecreasePeakWithNoiseThreshold>
+      <increaseDecreasePeakThreshold type="chromatixBVThreshold">af_single_hj_is_peak_in_inc_dec函数中inc_dec状态下最终CurVal和MaxVal进行比较判断是否有peak.判定为peak的第二个条件。
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.92</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.91</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.9</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.9</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.9</Threshold>
+      </increaseDecreasePeakThreshold>
+      <increaseDecreasePeakWithNoiseThreshold type="chromatixBVThreshold">
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.92</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.91</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.9</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.9</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.9</Threshold>
+      </increaseDecreasePeakWithNoiseThreshold>
+      <flatThreshold type="chromatixBVThreshold">判定整体曲线是否是flat的参数，全部搜索过程中最小值最大值的比值
+        <Threshold type="float" range="[0.5,1]">0.97</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.97</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.97</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.85</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.7</Threshold>
+      </flatThreshold>
+      <spotlightFlatThresholdMarco type="float" range="[0.5,1.0]">0.9</spotlightFlatThresholdMarco>
+      <spotlightFlatThresholdInfinity type="float" range="[0.5,1.0]">0.85</spotlightFlatThresholdInfinity>
+    </software>
+    <hardware type="chromatixSingleThreshold">现在使用的是hardware中的参数。在使用CAF粗搜时使用下列ratio
+      <changeRatioInc type="float" range="[1.0,1.1]">1.005</changeRatioInc>
+      <changeRatioDec type="float" range="[0.5,1.0]">0.995</changeRatioDec>
+      <flatIncThres type="float" range="[1.0,1.1]">1.008</flatIncThres>
+      <flatDecThres type="float" range="[0.5,1.0]">0.992</flatDecThres>
+      <fvIncFlatThres type="float" range="[1.0,1.1]">1.02</fvIncFlatThres>
+      <fvDecFlatThres type="float" range="[0.5,1.0]">0.98</fvDecFlatThres>
+      <fvIncFlatThresSpotlight type="float" range="[1.0,1.1]">1.01</fvIncFlatThresSpotlight>
+      <fvDecFlatThresSpotlight type="float" range="[0.5,1.0]">0.99</fvDecFlatThresSpotlight>
+      <macroThres type="float" range="[0.5,1.0]">0.85</macroThres>
+      <dropThres type="float" range="[0.5,1.0]">0.75</dropThres>
+      <histogramDecreaseDecreaseThreshold type="uint" range="[0,unbounded]">800</histogramDecreaseDecreaseThreshold>
+      <histogramIncreaseDecreaseThreshold type="uint" range="[0,unbounded]">800</histogramIncreaseDecreaseThreshold>
+      <threeFrameDecreaseDecreasePeakThreshold type="chromatixBVThreshold">
+        <Threshold type="float" range="[0.5,1]">0.955</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.935</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.93</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+      </threeFrameDecreaseDecreasePeakThreshold>
+      <threeFrameIncreaseDecreasePeakThreshold type="chromatixBVThreshold">
+        <Threshold type="float" range="[0.5,1]">0.96</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.955</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.955</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.955</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.935</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.932</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+      </threeFrameIncreaseDecreasePeakThreshold>
+      <decreaseDecreasePeakThreshold type="chromatixBVThreshold">
+        <Threshold type="float" range="[0.5,1]">0.963</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.963</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.963</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.955</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.93</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.92</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.97</Threshold>
+      </decreaseDecreasePeakThreshold>
+      <decreaseDecreasePeakWithNoiseThreshold type="chromatixBVThreshold">
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.93</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.97</Threshold>
+      </decreaseDecreasePeakWithNoiseThreshold>
+      <increaseDecreasePeakThreshold type="chromatixBVThreshold">
+        <Threshold type="float" range="[0.5,1]">0.96</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.96</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.955</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.945</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.935</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.925</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.97</Threshold>
+      </increaseDecreasePeakThreshold>
+      <increaseDecreasePeakWithNoiseThreshold type="chromatixBVThreshold">
+        <Threshold type="float" range="[0.5,1]">0.96</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.94</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.93</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.97</Threshold>
+      </increaseDecreasePeakWithNoiseThreshold>
+      <flatThreshold type="chromatixBVThreshold">
+        <Threshold type="float" range="[0.5,1]">0.992</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.992</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.9535</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.952</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.949</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.941</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.93</Threshold>
+        <Threshold type="float" range="[0.5,1]">0.95</Threshold>
+      </flatThreshold>
+      <spotlightFlatThresholdMarco type="float" range="[0.5,1.0]">0.9</spotlightFlatThresholdMarco>
+      <spotlightFlatThresholdInfinity type="float" range="[0.5,1.0]">0.85</spotlightFlatThresholdInfinity>
+    </hardware>
+    <optics type="chromatixSingleOptic">
+      <CAFFarEnd type="uint" range="[0,10000]">11</CAFFarEnd>
+      <CAFNearEnd type="uint" range="[0,10000]">0</CAFNearEnd>
+      <TAFFarEnd type="uint" range="[0,10000]">11</TAFFarEnd>
+      <TAFNearEnd type="uint" range="[0,10000]">0</TAFNearEnd>
+      <searchRegion1 type="uint" range="[0,10000]">9</searchRegion1>
+      <searchRegion2 type="uint" range="[0,10000]">7</searchRegion2>
+      <searchRegion3 type="uint" range="[0,10000]">4</searchRegion3>
+      <fineSearchRegion type="uint" range="[0,10000]">7</fineSearchRegion>
+      <farZone type="uint" range="[0,10000]">10</farZone>
+      <nearZone type="uint" range="[0,10000]">2</nearZone>
+      <midZone type="uint" range="[0,10000]">8</midZone>
+      <farStartPosition type="uint" range="[0,10000]">10</farStartPosition>
+      <nearStartPosition type="uint" range="[0,10000]">0</nearStartPosition>
+      <initialPosition type="uint" range="[0,10000]">9</initialPosition>
+    </optics>
+    <FVScoreThreshold type="chromatixFVScoreThreshold">
+      <defaultStats type="int" range="[0,2]">0</defaultStats>
+      <scoreRatioShowDif>
+        <Threshold type="float" range="[0.5,1]">1.005</Threshold>
+        <Threshold type="float" range="[0.5,1]">1.006</Threshold>
+        <Threshold type="float" range="[0.5,1]">1.007</Threshold>
+        <Threshold type="float" range="[0.5,1]">1.008</Threshold>
+        <Threshold type="float" range="[0.5,1]">1.009</Threshold>
+        <Threshold type="float" range="[0.5,1]">1.01</Threshold>
+        <Threshold type="float" range="[0.5,1]">1.01</Threshold>
+        <Threshold type="float" range="[0.5,1]">1.01</Threshold>
+      </scoreRatioShowDif>
+      <strictNoise type="float" range="[0.0,1.0]">0.03</strictNoise>
+      <normalNoise type="float" range="[0.0,1.0]">0.1</normalNoise>
+      <lighttNoise type="float" range="[0.0,1.0]">0.15</lighttNoise>
+      <strongPeakThres type="int">15</strongPeakThres>
+      <strongIncThres type="int">5</strongIncThres>
+      <strongDecThres type="int">-5</strongDecThres>
+    </FVScoreThreshold>
+    <frameDelay>
+      <baseFrameDelay type="uint" range="[0,10]">0</baseFrameDelay>
+      <coarseFrameDelay type="uint" range="[0,10]">0</coarseFrameDelay>
+      <fineFrameDelay type="uint" range="[0,10]">0</fineFrameDelay>
+    </frameDelay>
+    <BVGain type="float" range="[unbounded,unbounded]">-30</BVGain>
+    <BVGain type="float" range="[unbounded,unbounded]">-0.5</BVGain>
+    <BVGain type="float" range="[unbounded,unbounded]">0.5</BVGain>
+    <BVGain type="float" range="[unbounded,unbounded]">1.6</BVGain>
+    <BVGain type="float" range="[unbounded,unbounded]">2.5</BVGain>
+    <BVGain type="float" range="[unbounded,unbounded]">3.2</BVGain>
+    <BVGain type="float" range="[unbounded,unbounded]">3.5</BVGain>
+    <BVGain type="float" range="[unbounded,unbounded]">9</BVGain>
+    <ignoreFirstInvalidFrame type="int">1</ignoreFirstInvalidFrame>
+  </singleSearch>
+  <spotlightTuning>
+    <enableSpotlightFilterSwitch type="int">1</enableSpotlightFilterSwitch>
+    <secondOrderSpotlightFilterCoefficients type="float" range="[-5,5]">0.1289</secondOrderSpotlightFilterCoefficients>
+    <secondOrderSpotlightFilterCoefficients type="float" range="[-5,5]">0</secondOrderSpotlightFilterCoefficients>
+    <secondOrderSpotlightFilterCoefficients type="float" range="[-5,5]">-0.1289</secondOrderSpotlightFilterCoefficients>
+    <secondOrderSpotlightFilterCoefficients type="float" range="[-5,5]">1.1011</secondOrderSpotlightFilterCoefficients>
+    <secondOrderSpotlightFilterCoefficients type="float" range="[-5,5]">-0.7421</secondOrderSpotlightFilterCoefficients>
+    <secondOrderSpotlightFilterCoefficients type="float" range="[-5,5]">1</secondOrderSpotlightFilterCoefficients>
+    <secondOrderSpotlightFilterCoefficients type="float" range="[-5,5]">0</secondOrderSpotlightFilterCoefficients>
+    <secondOrderSpotlightFilterCoefficients type="float" range="[-5,5]">0</secondOrderSpotlightFilterCoefficients>
+    <secondOrderSpotlightFilterCoefficients type="float" range="[-5,5]">0</secondOrderSpotlightFilterCoefficients>
+    <secondOrderSpotlightFilterCoefficients type="float" range="[-5,5]">0</secondOrderSpotlightFilterCoefficients>
+    <fourthOrderSpotlightFilterCoefficients type="float" range="[-5,5]">0.1226</fourthOrderSpotlightFilterCoefficients>
+    <fourthOrderSpotlightFilterCoefficients type="float" range="[-5,5]">0</fourthOrderSpotlightFilterCoefficients>
+    <fourthOrderSpotlightFilterCoefficients type="float" range="[-5,5]">-0.1226</fourthOrderSpotlightFilterCoefficients>
+    <fourthOrderSpotlightFilterCoefficients type="float" range="[-5,5]">1.3643</fourthOrderSpotlightFilterCoefficients>
+    <fourthOrderSpotlightFilterCoefficients type="float" range="[-5,5]">-0.7548</fourthOrderSpotlightFilterCoefficients>
+    <fourthOrderSpotlightFilterCoefficients type="float" range="[-5,5]">0.3365</fourthOrderSpotlightFilterCoefficients>
+    <fourthOrderSpotlightFilterCoefficients type="float" range="[-5,5]">0</fourthOrderSpotlightFilterCoefficients>
+    <fourthOrderSpotlightFilterCoefficients type="float" range="[-5,5]">-0.3365</fourthOrderSpotlightFilterCoefficients>
+    <fourthOrderSpotlightFilterCoefficients type="float" range="[-5,5]">0.8726</fourthOrderSpotlightFilterCoefficients>
+    <fourthOrderSpotlightFilterCoefficients type="float" range="[-5,5]">-0.689</fourthOrderSpotlightFilterCoefficients>
+  </spotlightTuning>
+  <weightedWindow>QC不建议使用该功能
+    <enableAFRegionWeightTable type="int">0</enableAFRegionWeightTable>
+    <AFRegionWeightTable>
+      <numEntries type="uint" range="[0,100]">25</numEntries>可能需要改为36才会生效，该功能是在roi内继续划分权重表。
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">1</weight>
+      <weight type="float" range="[0,unbounded]">1</weight>
+      <weight type="float" range="[0,unbounded]">1</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">1</weight>
+      <weight type="float" range="[0,unbounded]">16</weight>
+      <weight type="float" range="[0,unbounded]">1</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">1</weight>
+      <weight type="float" range="[0,unbounded]">1</weight>
+      <weight type="float" range="[0,unbounded]">1</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+      <weight type="float" range="[0,unbounded]">0.5</weight>
+    </AFRegionWeightTable>
+    <enableAFLumaWeightTable type="int">0</enableAFLumaWeightTable>FV的H和V的权重，受LUMA影响af_process:414
+    <AFLumaWeightTable>
+      <numEntries type="uint" range="[0,20]">2</numEntries>
+      <lumaEntries>
+        <luma type="float" range="[0,unbounded]">4000</luma>
+        <weight type="float" range="[0,unbounded]">1</weight>
+      </lumaEntries>
+      <lumaEntries>
+        <luma type="float" range="[0,unbounded]">6000</luma>
+        <weight type="float" range="[0,unbounded]">0.6</weight>
+      </lumaEntries>
+    </AFLumaWeightTable>
+    <enableAFFaceWeightTable type="int">0</enableAFFaceWeightTable>检测到人脸时FV的H和V的权重发生变化。先从小到大每个window排序,window数为pBFStats->numberOfBAFROI.
+    <AFFaceWeightTable>将每个区域的FV排序后，插值计算各个权重.
+      <numEntries type="uint" range="[0,20]">4</numEntries>
+      <indexEntries>
+        <fvIndex type="uint" range="[0,unbounded]">4</fvIndex>
+        <weight type="float" range="[0,unbounded]">0.5</weight>
+      </indexEntries>
+      <indexEntries>
+        <fvIndex type="uint" range="[0,unbounded]">9</fvIndex>
+        <weight type="float" range="[0,unbounded]">1</weight>
+      </indexEntries>
+      <indexEntries>
+        <fvIndex type="uint" range="[0,unbounded]">10</fvIndex>
+        <weight type="float" range="[0,unbounded]">1</weight>
+      </indexEntries>
+      <indexEntries>
+        <fvIndex type="uint" range="[0,unbounded]">24</fvIndex>
+        <weight type="float" range="[0,unbounded]">1.5</weight>
+      </indexEntries>
+    </AFFaceWeightTable>
+  </weightedWindow>
+  <exposureCompensation>
+    <exposureCompensationEnable type="int">1</exposureCompensationEnable>
+    <kickinProgress type="int" range="[0,100]">68</kickinProgress>
+  </exposureCompensation>
+  <HVFocusValueStatisticWeighting>
+    <enableHVStatsRatio type="int">1</enableHVStatsRatio>
+    <hvFocusValueWeight type="float" range="[0,1]">0.7</hvFocusValueWeight>该值为h_weight,竖着拍摄时h1*v_weight.
+  </HVFocusValueStatisticWeighting>
+  <stepBack>
+    <stepBackEnable type="int">0</stepBackEnable>
+    <stepBackStartInfinity type="int" range="[0,unbounded]">0</stepBackStartInfinity>
+    <stepBackReverseInfinity type="int" range="[0,unbounded]">0</stepBackReverseInfinity>
+    <stepBackStartMacro type="int" range="[0,unbounded]">0</stepBackStartMacro>
+    <stepBackReverseMacro type="int" range="[0,unbounded]">0</stepBackReverseMacro>
+  </stepBack>
+  <secondScan>
+    <fRatioMin type="float" range="[0,unbounded]">0</fRatioMin>
+    <fRatioMax type="float" range="[0,unbounded]">0</fRatioMax>
+    <firstPreviousY1 type="float" range="[0,unbounded]">0</firstPreviousY1>
+    <nextY1 type="float" range="[0,unbounded]">0</nextY1>
+    <firstPreviousY2 type="float" range="[0,unbounded]">0</firstPreviousY2>
+    <nextY2 type="float" range="[0,unbounded]">0</nextY2>
+    <secondPreviousY1 type="float" range="[0,unbounded]">0</secondPreviousY1>
+    <secondNextY1 type="float" range="[0,unbounded]">0</secondNextY1>
+    <secondPreviousY2 type="float" range="[0,unbounded]">0</secondPreviousY2>
+    <secondNextY2 type="float" range="[0,unbounded]">0</secondNextY2>
+  </secondScan>
+  <flatnessDetection>
+    <flatDetectSupportEnable type="int">0</flatDetectSupportEnable>
+    <BVThresholdFlatDetect type="float" range="[0,unbounded]">0</BVThresholdFlatDetect>
+    <flatIncreasingThreshold type="float" range="[0,unbounded]">0</flatIncreasingThreshold>
+    <flatDecreasingThreshold type="float" range="[0,unbounded]">0</flatDecreasingThreshold>
+  </flatnessDetection>
+  <sceneChangeBV>
+    <sceneChangeByBVEnable type="int">0</sceneChangeByBVEnable>
+    <BVUnstableThresholdOutdoor type="float" range="[0,unbounded]">0</BVUnstableThresholdOutdoor>
+    <BVStableThresholdOutdoor type="float" range="[0,unbounded]">0</BVStableThresholdOutdoor>
+    <BVTriggerCountThresholdOutdoor type="float" range="[0,unbounded]">0</BVTriggerCountThresholdOutdoor>
+    <BVUnstableThresholdNormalLux type="float" range="[0,unbounded]">0</BVUnstableThresholdNormalLux>
+    <BVStableThresholdNormalLux type="float" range="[0,unbounded]">0</BVStableThresholdNormalLux>
+    <BVTriggerCountThresholdNormalLux type="float" range="[0,unbounded]">0</BVTriggerCountThresholdNormalLux>
+    <BVUnstableThresholdLowLux type="float" range="[0,unbounded]">0</BVUnstableThresholdLowLux>
+    <BVStableThresholdLowLux type="float" range="[0,unbounded]">0</BVStableThresholdLowLux>
+    <BVTriggerCountThresholdLowLux type="float" range="[0,unbounded]">0</BVTriggerCountThresholdLowLux>
+  </sceneChangeBV>
+  <miscellaneous>
+    <peakDetectInDecreaseEnable type="int">0</peakDetectInDecreaseEnable>
+    <frameSkipGoToPeak type="int" range="[0,unbounded]">0</frameSkipGoToPeak>
+    <forceEnableFineSearch type="int">0</forceEnableFineSearch>
+    <optimizePrescan type="int">0</optimizePrescan>
+    <optimizePeakEnable type="int">0</optimizePeakEnable>
+  </miscellaneous>
+</chromatixContrastAF>

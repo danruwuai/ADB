@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="AEC计算" backColor="ffa07a" type="matches_text" case_sensitive="n" regex="n" text="AEC Process" />
+    <filter enabled="y" excluding="n" description="统计ae信息" foreColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="ProcessFrameStats" />
+    <filter enabled="n" excluding="n" description="计算target" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="calculateTarget" />
+    <filter enabled="y" excluding="n" description="aetarget结果" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="y" text="runMetering|ConvergeFrameExposure" />
+    <filter enabled="y" excluding="n" description="获取曝光指数" backColor="d3d3d3" type="matches_text" case_sensitive="n" regex="n" text="GetExposureDataByType" />
+    <filter enabled="y" excluding="n" description="aec是否稳定" backColor="afeeee" type="matches_text" case_sensitive="n" regex="n" text="IsAECSettled" />
+    <filter enabled="y" excluding="n" description="拍照帧" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text=" AEC_DEBUG_CAPTURE" />
+    <filter enabled="y" excluding="n" description="EV 补偿" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="y" text="AECUtilGetEVOffset|setEVVal" />
+    <filter enabled="n" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="STATS_AEC" />
+    <filter enabled="n" excluding="n" description="" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="n" text="AELock" />
+    <filter enabled="n" excluding="n" description="调用关系" backColor="87cefa" type="matches_text" case_sensitive="n" regex="n" text="FillTuningModeData" />
+    <filter enabled="y" excluding="n" description="" type="matches_text" case_sensitive="n" regex="n" text="HDR" />
+    <filter enabled="y" excluding="n" description="拍照和结束" backColor="ff0000" type="matches_text" case_sensitive="n" regex="y" text="takePicture|PictureTaken" />
+    <filter enabled="y" excluding="n" description="更新算法名字" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="updateAlgorithmName" />
+  </filters>
+</TextAnalysisTool.NET>

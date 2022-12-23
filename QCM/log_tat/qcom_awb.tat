@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TextAnalysisTool.NET version="2018-11-20" showOnlyFilteredLines="True">
+  <filters>
+    <filter enabled="y" excluding="n" description="" backColor="ffa07a" type="matches_text" case_sensitive="n" regex="y" text="AWB Process start|AWB Process End" />
+    <filter enabled="y" excluding="n" description="" backColor="7fffd4" type="matches_text" case_sensitive="n" regex="n" text="AWB Algo Output" />
+    <filter enabled="y" excluding="n" description="" backColor="ff0000" type="matches_text" case_sensitive="n" regex="n" text="savePath" />
+    <filter enabled="y" excluding="n" description="" foreColor="0000ff" type="matches_text" case_sensitive="n" regex="n" text="Simple Gray World" />
+    <filter enabled="y" excluding="n" description="" backColor="ffff00" type="matches_text" case_sensitive="n" regex="n" text="AWB CORE Convergence done" />
+    <filter enabled="y" excluding="n" description="SA 分析" backColor="add8e6" type="matches_text" case_sensitive="n" regex="y" text="Analyze Analyze|GetConfidence" />
+    <filter enabled="y" excluding="n" description="查看ae是否稳定" backColor="90ee90" type="matches_text" case_sensitive="n" regex="n" text="isAECSettled" />
+    <filter enabled="n" excluding="n" description="闪光灯相关" backColor="87cefa" type="matches_text" case_sensitive="n" regex="n" text="FlashInfo" />
+    <filter enabled="y" excluding="n" description="收敛相关" backColor="ffb6c1" type="matches_text" case_sensitive="n" regex="y" text="RunConvergence|PrintModuleOutput" />
+    <filter enabled="y" excluding="n" description="" foreColor="ff00ff" type="matches_text" case_sensitive="n" regex="y" text="RunCCTTriggeredAdjGain|Final adjust gain" />
+    <filter enabled="y" excluding="n" description="人脸分析" backColor="f0e68c" type="matches_text" case_sensitive="n" regex="y" text="Analyze preframe face|Analyze m_faceNonDetectFramecnt" />
+    <filter enabled="y" excluding="n" description="SA和AGW混合" backColor="afeeee" type="matches_text" case_sensitive="n" regex="y" text="Run Run|Final DA target point|Run DA" />
+    <filter enabled="y" excluding="n" description="查看调用 " backColor="ffa500" type="matches_text" case_sensitive="n" regex="n" text="GetAlgoSetParamInput" />
+  </filters>
+</TextAnalysisTool.NET>
